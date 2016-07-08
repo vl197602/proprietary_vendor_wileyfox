@@ -310,7 +310,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so
+    vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
 	vendor/wileyfox/kipper/proprietary/bin/imscmservice:system/bin/imscmservice \
  vendor/wileyfox/kipper/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
      vendor/wileyfox/kipper/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
