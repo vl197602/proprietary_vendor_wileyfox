@@ -21,6 +21,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp
+	
+PRODUCT_PACKAGES += \
+     ims \
+     imssettings \
+     imscmlibrary	
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location
