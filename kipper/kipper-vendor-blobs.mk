@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+	vendor/wileyfox/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/wileyfox/kipper/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
