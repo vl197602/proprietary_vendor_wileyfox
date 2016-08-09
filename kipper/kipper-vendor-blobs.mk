@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/wileyfox/kipper/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/wileyfox/kipper/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
@@ -313,34 +312,33 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
 	vendor/wileyfox/kipper/proprietary/bin/imscmservice:system/bin/imscmservice \
- vendor/wileyfox/kipper/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-     vendor/wileyfox/kipper/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-     vendor/wileyfox/kipper/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-     vendor/wileyfox/kipper/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-     vendor/wileyfox/kipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-  vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-     vendor/wileyfox/kipper/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
-	
+  vendor/wileyfox/kipper/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+      vendor/wileyfox/kipper/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+      vendor/wileyfox/kipper/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+      vendor/wileyfox/kipper/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+      vendor/wileyfox/kipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+   vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+      vendor/wileyfox/kipper/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so 	
 endif
 
