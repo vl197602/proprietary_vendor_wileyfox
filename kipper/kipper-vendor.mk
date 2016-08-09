@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/wileyfox/kipper/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/wileyfox/kipper/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
