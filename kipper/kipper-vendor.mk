@@ -313,7 +313,8 @@ PRODUCT_COPY_FILES += \
        vendor/wileyfox/kipper/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
        vendor/wileyfox/kipper/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
        vendor/wileyfox/kipper/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-       vendor/wileyfox/kipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+       vendor/wileyfox/kipper/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
+	   vendor/wileyfox/kipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
        vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
        vendor/wileyfox/kipper/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
        vendor/wileyfox/kipper/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
